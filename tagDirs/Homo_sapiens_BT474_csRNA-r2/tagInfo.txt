@@ -1,0 +1,64 @@
+name	Unique Positions	Total Tags
+genome=hg38	3873265	13352635.0
+fragmentLengthEstimate=150		
+peakSizeEstimate=781		
+tagsPerBP=0.000000		
+averageTagsPerPosition=3.358		
+medianTagsPerPosition=1		
+averageTagLength=30.848		
+gsizeEstimate=3090147705		
+averageFragmentGCcontent=0.567		
+singleTagFile=true		
+chr1	372640	1627504.0
+chr2	258392	752667.0
+chr3	207239	621865.0
+chr4	133485	352710.0
+chr5	170225	509576.0
+chr6	199269	712376.0
+chr7	190402	665569.0
+chr8	155222	546162.0
+chr9	145635	436609.0
+chr10	142095	370543.0
+chr11	237248	783925.0
+chr12	205253	622254.0
+chr13	61146	162147.0
+chr14	173698	615037.0
+chr15	115118	403230.0
+chr16	151868	426799.0
+chr17	303662	1784972.0
+chr18	67619	175583.0
+chr19	234574	755497.0
+chr20	141871	487680.0
+chr21	34425	87476.0
+chr22	81877	231483.0
+chrX	86450	207277.0
+chrY	60	87.0
+chrM	3334	12700.0
+chr11_KI270721v1_random	3	3.0
+chr14_GL000009v2_random	2	2.0
+chr14_GL000194v1_random	6	7.0
+chr14_GL000225v1_random	13	19.0
+chr14_KI270722v1_random	1	1.0
+chr14_KI270724v1_random	1	1.0
+chr15_KI270727v1_random	27	45.0
+chr16_KI270728v1_random	14	21.0
+chr17_GL000205v2_random	49	75.0
+chr17_KI270729v1_random	3	3.0
+chr1_KI270709v1_random	1	1.0
+chr1_KI270713v1_random	102	319.0
+chr1_KI270714v1_random	4	5.0
+chr22_KI270733v1_random	51	87.0
+chr22_KI270734v1_random	20	26.0
+chr22_KI270735v1_random	1	2.0
+chr5_GL000208v1_random	1	1.0
+chrUn_GL000195v1	55	78.0
+chrUn_GL000218v1	4	9.0
+chrUn_GL000219v1	8	12.0
+chrUn_GL000220v1	48	104.0
+chrUn_KI270442v1	32	69.0
+chrUn_KI270466v1	2	3.0
+chrUn_KI270744v1	2	3.0
+chrUn_KI270748v1	6	8.0
+chrUn_KI270751v1	1	1.0
+chrUn_KI270755v1	1	2.0
+cmd=makeTagDirectory /data/lab/duttke/personal/amcdonald/tagDirs/Homo_sapiens_BT474_csRNA-r2 /data/lab/duttke/personal/amcdonald/projects/aviti_vs_illumina/old/aviti_vs_illumina/sam/Homo_sapiens-BT474_Illumina_csRNA-r2.Aligned.out.sam -genome hg38 -checkGC -omitSN -fragLength 150 -single		

@@ -1,0 +1,70 @@
+name	Unique Positions	Total Tags
+genome=hg38	3852914	11798893.0
+fragmentLengthEstimate=150		
+peakSizeEstimate=798		
+tagsPerBP=0.000000		
+averageTagsPerPosition=3.022		
+medianTagsPerPosition=1		
+averageTagLength=31.248		
+gsizeEstimate=3091309351		
+averageFragmentGCcontent=0.561		
+singleTagFile=true		
+chr1	372157	1446510.0
+chr2	259750	663612.0
+chr3	207228	550407.0
+chr4	133410	312039.0
+chr5	171145	477524.0
+chr6	203263	677840.0
+chr7	189219	566784.0
+chr8	155685	487129.0
+chr9	142538	372408.0
+chr10	141680	330930.0
+chr11	234429	674436.0
+chr12	207033	606256.0
+chr13	60517	144451.0
+chr14	169798	539286.0
+chr15	116207	387266.0
+chr16	146788	375464.0
+chr17	298009	1462802.0
+chr18	68126	158012.0
+chr19	226983	641020.0
+chr20	141775	424977.0
+chr21	35277	77136.0
+chr22	81345	218099.0
+chrX	85767	187111.0
+chrY	98	122.0
+chrM	4153	16426.0
+chr14_GL000009v2_random	10	11.0
+chr14_GL000194v1_random	11	13.0
+chr14_GL000225v1_random	17	21.0
+chr14_KI270722v1_random	1	1.0
+chr14_KI270724v1_random	1	1.0
+chr14_KI270725v1_random	1	1.0
+chr15_KI270727v1_random	19	24.0
+chr16_KI270728v1_random	18	21.0
+chr17_GL000205v2_random	52	63.0
+chr17_KI270729v1_random	1	1.0
+chr1_KI270706v1_random	1	2.0
+chr1_KI270709v1_random	1	1.0
+chr1_KI270713v1_random	131	278.0
+chr22_KI270733v1_random	78	121.0
+chr22_KI270734v1_random	10	15.0
+chr22_KI270736v1_random	1	1.0
+chr22_KI270738v1_random	2	3.0
+chr4_GL000008v2_random	1	1.0
+chr9_KI270719v1_random	1	1.0
+chrEBV	1	1.0
+chrUn_GL000195v1	62	99.0
+chrUn_GL000218v1	5	7.0
+chrUn_GL000219v1	23	28.0
+chrUn_GL000220v1	45	75.0
+chrUn_KI270442v1	12	19.0
+chrUn_KI270467v1	2	3.0
+chrUn_KI270743v1	7	7.0
+chrUn_KI270744v1	7	9.0
+chrUn_KI270747v1	1	1.0
+chrUn_KI270748v1	8	11.0
+chrUn_KI270749v1	2	4.0
+chrUn_KI270752v1	1	1.0
+chrUn_KI270757v1	1	1.0
+cmd=makeTagDirectory /data/lab/duttke/personal/amcdonald/tagDirs/Homo_sapiens_BT474_csRNA-r1 /data/lab/duttke/personal/amcdonald/projects/aviti_vs_illumina/old/aviti_vs_illumina/sam/Homo_sapiens-BT474_Illumina_csRNA-r1.Aligned.out.sam -genome hg38 -checkGC -omitSN -fragLength 150 -single		
